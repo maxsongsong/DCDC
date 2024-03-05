@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "ratio": "cpp",
+        "pid.h": "c",
+        "string.h": "c",
+        "buck.h": "c",
+        "stdint.h": "c",
+        "cal_eff.h": "c",
+        "cal_eff.c": "cpp",
+        "misc.h": "c",
+        "cal_curr.h": "c",
+        "buck_curr.h": "c",
+        "buck_bat.h": "c",
+        "boost.h": "c",
+        "bsp_irq.h": "c",
+        "bsp_adc.h": "c",
+        "bsp_pwm.h": "c",
+        "math.h": "c",
+        "typeinfo": "c",
+        "cmath": "c",
+        "bsp_task.h": "c",
+        "bsp_task_reg.h": "c",
+        "bsp_task_def.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
