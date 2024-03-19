@@ -45,5 +45,6 @@ void pid_reset(pid_param_t *pid_param);
 void pid_set_ref(pid_param_t *pid_param, float ref);
 void pid_set_act(pid_param_t *pid_param, float act);
 float pid_cal(pid_param_t *pid_param);
+void PidComputationalClear(pid_param_t *pid_param);
 
 #endif

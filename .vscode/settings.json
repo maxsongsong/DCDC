@@ -20,7 +20,14 @@
         "cmath": "c",
         "bsp_task.h": "c",
         "bsp_task_reg.h": "c",
-        "bsp_task_def.h": "c"
+        "bsp_task_def.h": "c",
+        "filter_alg.h": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "system_error": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
