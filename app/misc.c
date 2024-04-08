@@ -68,10 +68,11 @@ void ctrl_isr(void)
 {
     ctrl_update_param();
 
-    buck_alg(&buck_param);
 
-    BSP_PWM_SET_INPUT(BUCK, buck_param.output.duty, 1, buck_param.output.dcm_mode ? 0 : 1, 0);
-    BSP_PWM_SET_INPUT(BUCK1, buck_param.output.duty1, 1, buck_param.output.dcm_mode ? 0 : 1, 0);
-    BSP_PWM_SET_INPUT(BOOST, 0.2, 1, 1, 0);
-    BSP_PWM_SET_INPUT(BOOST1, 0.8, 1, 1, 0);
+    // buck_alg(&buck_param);
+
+    // BSP_PWM_SET_INPUT(BUCK, buck_param.output.duty, 1, buck_param.output.dcm_mode ? 0 : 1, 0);
+    // BSP_PWM_SET_INPUT(BUCK1, buck_param.output.duty1, 1, buck_param.output.dcm_mode ? 0 : 1, 0);
+    BSP_PWM_SET_INPUT(BUCK, 0.2, 1, 0, 0);
+    // BSP_PWM_SET_INPUT(BUCK1, 0.5, 1, 1, 0);
 }
